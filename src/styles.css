@@ -1,0 +1,44 @@
+.magic-ball {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation-duration: 0.1s;
+    animation-timing-function: linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25%, 75% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+  }
+  
+  .answer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+   
+  }
+  
+  .ask-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
+  }
+  
